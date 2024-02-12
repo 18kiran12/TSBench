@@ -1,0 +1,216 @@
+{
+    "cif_2016_dataset": 
+    {"context_length": 15,
+    "external_forecast_horizon": 6,
+    "integer_conversion": "False"
+    },
+    "nn5_daily_dataset_without_missing_values": 
+    {"context_length": 9,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "tourism_yearly_dataset": 
+    {"context_length": 2,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "tourism_quarterly_dataset": 
+    {"context_length": 5,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "tourism_monthly_dataset": 
+    {"context_length": 15,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m1_yearly_dataset": 
+    {"context_length": 2,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m1_quarterly_dataset": 
+    {"context_length": 5,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m1_monthly_dataset": 
+    {"context_length": 15,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m3_yearly_dataset": 
+    {"context_length": 2,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m3_quarterly_dataset": 
+    {"context_length": 5,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m3_monthly_dataset": 
+    {"context_length": 15,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m3_other_dataset": 
+    {"context_length": 2,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m4_quarterly_dataset": 
+    {"context_length": 5,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m4_monthly_dataset": 
+    {"context_length": 15,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m4_weekly_dataset": 
+    {"context_length": 65,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m4_daily_dataset": 
+    {"context_length": 9,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "m4_hourly_dataset": 
+    {"context_length": 210,
+    "external_forecast_horizon": 1,
+    "integer_conversion": "False"
+    },
+    "car_parts_dataset_without_missing_values": 
+    {"context_length": 15,
+    "external_forecast_horizon": 12,
+    "integer_conversion": "True"
+    },
+    "hospital_dataset": 
+    {"context_length": 15,
+    "external_forecast_horizon": 12,
+    "integer_conversion": "True"
+    },
+    "fred_md_dataset": 
+    {"context_length": 15,
+    "external_forecast_horizon": 12,
+    "integer_conversion": "False"
+    },
+    "nn5_weekly_dataset": 
+    {"context_length": 65,
+    "external_forecast_horizon": 8,
+    "integer_conversion": "False"
+    },
+    "traffic_weekly_dataset": 
+    {"context_length": 65,
+    "external_forecast_horizon": 8,
+    "integer_conversion": "False"
+    },
+    "electricity_weekly_dataset": 
+    {"context_length": 65,
+    "external_forecast_horizon": 8,
+    "integer_conversion": "True"
+    },
+    "solar_weekly_dataset": 
+    {"context_length": 6,
+    "external_forecast_horizon": 5,
+    "integer_conversion": "False"
+    },
+    "kaggle_web_traffic_weekly_dataset": 
+    {"context_length": 10,
+    "external_forecast_horizon": 8,
+    "integer_conversion": "True"
+    },
+    "dominick_dataset": 
+    {"context_length": 10,
+    "external_forecast_horizon": 8,
+    "integer_conversion": "False"
+    },
+    "us_births_dataset": 
+    {"context_length": 9,
+    "external_forecast_horizon": 30,
+    "integer_conversion": "True"
+    },
+    "saugeenday_dataset": 
+    {"context_length": 9,
+    "external_forecast_horizon": 30,
+    "integer_conversion": "False"
+    },
+    "sunspot_dataset_without_missing_values": 
+    {"context_length": 9,
+    "external_forecast_horizon": 30,
+    "integer_conversion": "True"
+    },
+    "covid_deaths_dataset": 
+    {"context_length": 9,
+    "external_forecast_horizon": 30,
+    "integer_conversion": "True"
+    },
+    "weather_dataset": 
+    {"context_length": 9,
+    "external_forecast_horizon": 30,
+    "integer_conversion": "False"
+    },
+    "traffic_hourly_dataset": 
+    {
+        "context_length": 30,
+    "external_forecast_horizon": 168,
+    "integer_conversion": "False"},
+    "electricity_hourly_dataset": 
+    {
+        "context_length": 30,
+    "external_forecast_horizon": 168,
+    "integer_conversion": "True"
+    },
+    "solar_10_minutes_dataset": 
+    {
+        "context_length": 50,
+    "external_forecast_horizon": 1008,
+    "integer_conversion": "False"
+    },
+    "kdd_cup_2018_dataset_without_missing_values": 
+    {
+        "context_length": 210,
+    "external_forecast_horizon": 168,
+    "integer_conversion": "False"
+    },
+    "pedestrian_counts_dataset": 
+    {
+        "context_length": 210,
+    "external_forecast_horizon": 24,
+    "integer_conversion": "True"
+    },
+    "bitcoin_dataset_without_missing_values": 
+    {
+        "context_length": 9,
+    "external_forecast_horizon": 30,
+    "integer_conversion": "False"
+    },
+    "vehicle_trips_dataset_without_missing_values": 
+    {
+        "context_length": 9,
+    "external_forecast_horizon": 30,
+    "integer_conversion": "True"
+    },
+    "australian_electricity_demand_dataset": 
+    {
+        "context_length": 420,
+    "external_forecast_horizon": 336,
+    "integer_conversion": "False"
+    },
+    "rideshare_dataset_without_missing_values": 
+    {
+        "context_length": 210,
+    "external_forecast_horizon": 168,
+    "integer_conversion": "False"
+    },
+    "temperature_rain_dataset_without_missing_values": 
+    {
+        "context_length": 9,
+    "external_forecast_horizon": 30,
+    "integer_conversion": "False"
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "nbeats" : 
+        {
+            "dynamic_params" :
+            {
+                "param1": {
+                    "name" : "num_stacks",
+                    "values" : "30~",
+                    "datatype" : "int_dtypes"
+                },
+                "param2": {
+                    "name" : "num_blocks",
+                    "values" : "1,~",
+                    "datatype" : "list_int_dtypes"
+                },
+                "param3": {
+                    "name" : "expansion_coefficient_lengths",
+                    "values" : "32,~",
+                    "datatype" : "list_int_dtypes"
+                },
+                "param4": {
+                    "name" : "widths",
+                    "values" : "512,~",
+                    "datatype" : "list_int_dtypes"
+                },
+                "param5": {
+                    "name" : "sharing",
+                    "values" : "False,~",
+                    "datatype" : "list_bool_dtypes"
+                },
+                "param6": {
+                    "name" : "loss_function",
+                    "values" : "MASE~", 
+                    "datatype" : "str_dtypes"
+                }
+            },
+            "static_params" :
+            {  
+                "stack_types" : "G,:list_str_dtypes"
+            }
+        },
+    "transformer" : 
+        {
+            "dynamic_params" :
+            {
+                "param1": {
+                    "name" : "dropout_rate",
+                    "values" : "0.1~0.3",
+                    "datatype" : "float_dtypes"
+                },
+                "param2": {
+                    "name" : "embedding_dimension",
+                    "values" : "5~20",
+                    "datatype" : "int_dtypes"
+                },
+                "param3": {
+                    "name" : "distr_output",
+                    "values" : "StudentTOutput~PoissonOutput~GaussianOutput",
+                    "datatype" : "str_dtypes"
+                },
+                "param4": {
+                    "name" : "model_dim",
+                    "values" : "32~64",
+                    "datatype" : "int_dtypes"
+                },
+                "param5": {
+                    "name" : "inner_ff_dim_scale",
+                    "values" : "4~",
+                    "datatype" : "int_dtypes"
+                },
+                "param6": {
+                    "name" : "pre_seq",
+                    "values" : "dn~",
+                    "datatype" : "str_dtypes"
+                }
+            },
+            "static_params" :
+            {
+            }
+        },
+        "deepar" : 
+        {
+            "dynamic_params" :
+            {
+                "param1": {
+                    "name" : "num_layers",
+                    "values" : "2~3~",
+                    "datatype" : "int_dtypes"
+                },
+                "param2": {
+                    "name" : "num_cells",
+                    "values" : "30~40~",
+                    "datatype" : "int_dtypes"
+                },
+                "param3": {
+                    "name" : "distr_output",
+                    "values" : "StudentTOutput~PoissonOutput~GaussianOutput",
+                    "datatype" : "str_dtypes"
+                },
+                "param4": {
+                    "name" : "cell_type",
+                    "values" : "lstm~",
+                    "datatype" : "str_dtypes"
+                },
+                "param5": {
+                    "name" : "dropoutcell_type",
+                    "values" : "ZoneoutCell~",
+                    "datatype" : "str_dtypes"
+                },
+                "param6": {
+                    "name" : "dropout_rate",
+                    "values" : "0.0~0.1~",
+                    "datatype" : "float_dtypes"
+                }
+            },
+            "static_params" :
+            {
+            }
+        },
+        "tft" : 
+        {
+            "dynamic_params" :
+            {
+                "param1": {
+                    "name" : "hidden_dim",
+                    "values" : "32~64",
+                    "datatype" : "int_dtypes"
+                },
+                "param2": {
+                    "name" : "num_heads",
+                    "values" : "4~",
+                    "datatype" : "int_dtypes"
+                },
+                "param3": {
+                    "name" : "num_outputs",
+                    "values" : "2~",
+                    "datatype" : "int_dtypes"
+                },
+                "param4": {
+                    "name" : "dropout_rate",
+                    "values" : "0~0.5~",
+                    "datatype" : "float_dtypes"
+                },
+                "param5": {
+                    "name" : "empty1",
+                    "values" : "empty~",
+                    "datatype" : "str_dtypes"
+                },
+                "param6": {
+                    "name" : "empty2",
+                    "values" : "empty~",
+                    "datatype" : "str_dtypes"
+                }
+            },
+            "static_params" :
+            {
+            }
+        },
+        "dlinear" : 
+        {
+            "dynamic_params" :
+            {
+                "param1": {
+                    "name" : "kernel_size",
+                    "values" : "15~25~35",
+                    "datatype" : "int_dtypes"
+                },
+                "param2": {
+                    "name" : "nodes",
+                    "values" : "0,~32,64,32~128,64,32~64,64,64~64,32,64~32,64,128",
+                    "datatype" : "list_int_dtypes"
+                },
+                "param3": {
+                    "name" : "context_length",
+                    "values" : "2~7~24~100~300",
+                    "datatype" : "int_dtypes"
+                },
+                "param4": {
+                    "name" : "distribution_hidden_state",
+                    "values" : "1~2~10", 
+                    "datatype" : "int_dtypes"
+                },
+                "param5": {
+                    "name" : "decay",
+                    "values" : "0~0.1~0.5",
+                    "datatype" : "float_dtypes"
+                },
+                "param6": {
+                    "name" : "learning_rate",
+                    "values" : "0.01~0.001~",
+                    "datatype" : "float_dtypes"
+                }
+            },
+            "static_params" :
+            {
+                "patience" : "10:int_dtypes",
+                "activation" : "elu:str_dtypes",
+                "distr_output" :"StudentTOutput:str_dtypes",
+                "batch_size" : "64:int_dtypes"
+            }
+        },
+        "nlinear" : 
+        {
+            "dynamic_params" :
+            {
+                "param1": {
+                    "name" : "distribution_hidden_state",
+                    "values" : "1~2~10",
+                    "datatype" : "int_dtypes"
+                },
+                "param2": {
+                    "name" : "nodes",
+                    "values" : "0,~32,64,32~128,64,32~64,64,64~64,32,64~32,64,128",
+                    "datatype" : "list_int_dtypes"
+                },
+                "param3": {
+                    "name" : "context_length",
+                    "values" : "2~7~24~100~300",
+                    "datatype" : "int_dtypes"
+                },
+                "param4": {
+                    "name" : "activation",
+                    "values" : "elu~", 
+                    "datatype" : "str_dtypes"
+                },
+                "param5": {
+                    "name" : "decay",
+                    "values" : "0~0.1~0.5",
+                    "datatype" : "float_dtypes"
+                },
+                "param6": {
+                    "name" : "learning_rate",
+                    "values" : "0.01~0.001~0.0001",
+                    "datatype" : "float_dtypes"
+                }
+            },
+            "static_params" :
+            {
+                "patience" : "10:int_dtypes",
+                "distr_output" :"StudentTOutput:str_dtypes",
+                "batch_size" : "64:int_dtypes"
+            }
+        }
+}
